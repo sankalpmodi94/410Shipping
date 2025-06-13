@@ -1,0 +1,19 @@
+Category,Setting,Value,Description
+Spreadsheet,ID,13FavpJzu9ZP6R3I2svEMToYu29CzhjQBGUmskIKQPJs,Google Sheet ID for the shipping system
+Spreadsheet,Raw Data Sheet,Raw Data,Sheet name for raw imported data
+Spreadsheet,Clean Data Sheet,Clean Data,Sheet name for cleaned and processed data
+Spreadsheet,Columns to Send Sheet,Cols to Send,Sheet name for columns to include in reports
+Spreadsheet,Mail Log Sheet,Mail Log,Sheet name for email sending logs
+Spreadsheet,Raw Import Sheet,Raw Import,Sheet name for manual data imports
+Gmail,Search Query,has:attachment filename:csv,Base Gmail search query
+Gmail,Date Range Days,2,Number of days back to search for emails
+Gmail,Processed Label,CSV_Processed,Label to mark processed emails
+Gmail,Max Emails to Process,10,Maximum number of emails to process per run
+Data,Tier Column Name,Tier,Name of the column containing tier information
+Data,Header Validation,true,Whether to validate CSV headers
+Data,Duplicate Check,true,Whether to check for duplicate rows
+Data,Duplicate Check Columns,,Comma-separated list of columns to check for duplicates
+Email,Recipient,sankalpmodi5@gmail.com,Email address to send reports to
+Email,Sender Name,Data Export System,Name to use when sending emails
+PDF,Target Sheet Name,Sheet 2,Sheet name for PDF extracted data
+PDF,OCR Language,en,Language to use for PDF OCR 
